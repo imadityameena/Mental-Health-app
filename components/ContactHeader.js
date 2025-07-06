@@ -3,7 +3,7 @@ import Image from "next/image";
 const ContactHeaderContent = () => {
   return (
     <div className="w-full bg-white flex flex-col md:flex-row items-start justify-start gap-12 px-6 md:px-20 lg:px-36 py-12 text-sm text-[#213650] font-noto-sans">
-      {/* Left Content */}
+      
       <div className="w-full md:w-[448px] flex flex-col items-start justify-center gap-6">
         <div className="rounded-[99px] bg-[#ffcd93] h-6 flex items-center justify-center px-4 text-center text-[#523c00]">
           <div className="leading-[150%]">Get in touch</div>

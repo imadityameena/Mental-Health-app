@@ -1,19 +1,19 @@
-/* ✅ Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&display=swap');
 
-/* ✅ Tailwind core layers */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* ✅ Optional global reset (border-width = 0) */
+
 @layer base {
   *, ::before, ::after {
     border-width: 0;
   }
 }
 
-/* ✅ Your custom animation utility */
+
 @layer utilities {
   .animate-slide-down {
     animation: slideDown 0.25s ease-out;

@@ -34,7 +34,7 @@ const Testimonials = () => {
     <section className="w-full bg-[url('/testimonials.png')] bg-cover bg-no-repeat bg-top py-12 px-4 text-[#523c00] font-noto-sans overflow-hidden">
       <div className="max-w-[1162px] mx-auto flex flex-col lg:flex-row gap-8">
         
-        {/* Left: Avatars + Image */}
+        {/* Left Image */}
         <div className="flex gap-6 shrink-0 w-auto">
           <div className="flex flex-col gap-5">
             {[1, 2, 3, 4].map((num) => (
@@ -57,7 +57,7 @@ const Testimonials = () => {
           />
         </div>
 
-        {/* Right: Text + Cards */}
+        {/* Right: Text and Cards */}
         <div className="flex-1 flex flex-col gap-6 w-full">
           <div className="bg-[#ffcd93] rounded-full px-4 h-6 flex items-center justify-center text-center w-fit">
             <span className="text-sm font-medium">Testimonials</span>
